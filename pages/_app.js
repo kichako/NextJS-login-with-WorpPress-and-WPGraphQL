@@ -4,7 +4,7 @@ import client from '../apollo/client';
 import { ApolloProvider } from '@apollo/client';
 import { getToken, removeToken, setToken } from '../utils/token';
 import { getUserID, removeUserID, setUserID } from '../utils/userId';
-import AuthContext from '../context/AuthContext';
+import AuthContext from '../context/authContext';
 import jwtDecode from 'jwt-decode';
 import { ToastContainer } from 'react-toastify';
 
