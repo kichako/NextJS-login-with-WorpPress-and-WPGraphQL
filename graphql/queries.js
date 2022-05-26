@@ -10,17 +10,3 @@ export const USER_DATA = gql`
         }
     }
 `;
-
-export const USERS = gql`
-    query NewQuery {
-        users {
-            nodes {
-                name
-                id
-                avatar {
-                    url
-                }
-            }
-        }
-    }
-`;
