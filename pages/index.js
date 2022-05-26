@@ -31,8 +31,6 @@ const Homepage = () => {
 
     const user = data.user;
 
-    console.log(user);
-
     return (
         <HomeContainer>
             <Head>
